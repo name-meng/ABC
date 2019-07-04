@@ -6,3 +6,10 @@ function fn(){
 }
 fn()
 console.log(a)
+var c;
+console.log(c);
+c=a;
+function fn1(){
+  console.log(c);  
+}
+fn1()
